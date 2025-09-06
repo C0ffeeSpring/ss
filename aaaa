@@ -1,0 +1,44 @@
+programa
+{
+	
+inteiro resposta
+	funcao inicio()
+	{
+	     escreva("*****************\n")
+		escreva("escolha sua arma: \n")
+		escreva("(1) - escudo\n")
+		escreva("(2) - espada \n")
+		escreva("(3) - AK-47 \n")
+		escreva("(4) - Arco Magico \n")
+		escreva ("****************\n")
+		leia(resposta)
+		se (resposta == 1){
+			escudo (0)
+		}}
+
+           funcao escudo (inteiro escolhaesc){
+           	escreva("Neera mesmo com uma possivel desvantagem contra o dragão, anda com determinação até o dragão \n")
+           	escreva("O dragão olha para ela com desprezo e ri \n")
+           	escreva ("Neera se sente um pouco amedontrada e ergue seu escudo \n")
+           	escreva ("O dragão achando que sua vitoria estaria garantida, solta uma rajada de fogo azulado \n")
+           	escreva ("O fogo chega rapidamente em direção a seu escudo \n")
+           	escreva ("Neera sente sua pele entrar em chamas por dentro \n")
+           	escreva ("Quando Neera sente que não ia aguentar seu escudo dobra de tamanho fazendo o fogo parecer minusculo \n")
+           	escreva ("Atras de seu escudo aparece um misterioso botão \n")
+           	 escreva ("clicar? \n")
+           	 escreva("(1) Sim   ou   (2 Não ) \n")
+           	 leia(escolhaesc)
+           	 se (escolhaesc == 1)
+           	  escreva("O botão foi clicado \n")
+           	  escreva ("derrepente vocẽ sente o escudo tremer \n")
+           	  escreva ("como escamas a parte da frente se tranforma. Coloração verde e duas cobras de metal aparecem \n")
+           	  escreva ("você sente seu poder aumentando drasticamente \n")
+           	  escreva ("Como uma ordem suas cobras avançam no dragão, mordendo ele \n")
+           	  escreva ("O dragão se contorce de dor, o veneno começando a fazer efeito \n")
+           	  escreva ("O dragão como pedra cai no chão se contorcendo de agonia e sofrimento \n")
+           	 
+           }
+		
+	
+	
+}
