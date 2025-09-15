@@ -1,0 +1,304 @@
+programa
+{
+	
+inteiro resposta
+	funcao inicio()
+	{
+	     escreva("*****************\n")
+		escreva("escolha sua arma: \n")
+		escreva("(1) - escudo\n")
+		escreva("(2) - espada \n")
+		escreva("(3) - AK-47 \n")
+		escreva("(4) - Arco Magico \n")
+		escreva ("****************\n")
+		leia(resposta)
+		se (resposta == 1){
+			escudo (0)
+		}
+		se (resposta == 2){
+			espada (0)
+		}
+		se (resposta == 3){ 
+			ak47 (0)
+			}
+		se (resposta == 4)
+		   arco (0)	
+		}
+
+           funcao escudo (inteiro escolhaesc){
+           	escreva("Neera mesmo com uma possivel desvantagem contra o dragão, anda com determinação até o dragão \n")
+           	escreva("O dragão olha para ela com desprezo e ri \n")
+           	escreva ("Neera se sente um pouco amedontrada e ergue seu escudo \n")
+           	escreva ("O dragão achando que sua vitoria estaria garantida, solta uma rajada de fogo azulado \n")
+           	escreva ("O fogo chega rapidamente em direção a seu escudo \n")
+           	escreva ("Neera sente sua pele entrar em chamas por dentro \n")
+           	escreva ("Quando Neera sente que não ia aguentar seu escudo dobra de tamanho fazendo o fogo parecer minusculo \n")
+           	escreva ("Atras de seu escudo aparece um misterioso botão \n")
+           	 escreva ("clicar? \n")
+           	 escreva("(1) Sim   ou   (2 Não ) \n")
+           	 leia(escolhaesc)
+           	 se (escolhaesc == 1){
+           	  cadeia texto1 = "O botão foi clicado"
+cadeia texto2 = "De repente você sente o escudo tremer"
+cadeia texto3 = "Como escamas, a parte da frente se transforma. Coloração verde e duas cobras de metal aparecem"
+cadeia texto4 = "Você sente seu poder aumentando drasticamente"
+cadeia texto5 = "De ???? --> 200 de ataque"
+cadeia texto6 = "Como uma ordem, suas cobras avançam no dragão, mordendo ele"
+cadeia texto7 = "O dragão se contorce de dor, o veneno começando a fazer efeito"
+cadeia texto8 = "O dragão como pedra cai no chão se contorcendo de agonia e sofrimento"
+cadeia texto9 = "Como tortura, o dragão clama pela sua vida"
+cadeia texto10 = "Neera olha com desprezo e com a ponta de seu escudo, fura o olho do ser derrotado"
+cadeia texto11 = "O dragão desmaia com a dor sentida"
+cadeia texto12 = "O dragão cospe uma chave"
+cadeia texto13 = "A chave da alta torre..."}
+                se (escolhaesc == 2){
+                	cadeia texto14 = "O botão não foi clicado"
+cadeia texto15 = "A força do fogo aumenta"
+cadeia texto16 = "Sua defesa começa a abaixar"
+cadeia texto17 = "Seu escudo está ficando fraco"
+cadeia texto18 = "Quer fugir?"
+    inteiro fugir
+          cadeia texto19 = "(1) sim e (2) nao"
+           leia (fugir)
+               se (fugir == 1){
+                cadeia texto20 = "Você ameaça correr porém o dragão te encurrala"
+		cadeia texto21 = "Mesmo sendo de ferro, seu escudo começa a derreter"
+		cadeia texto22 = "O tamanho que parecia ser imenso começa a diminuir"
+		cadeia texto23 = "O escudo se dissolve"
+		cadeia texto24 = "E você sente sua pele começar a derreter"
+		cadeia texto25 = "Você não aguenta e vira esqueleto"
+escreva("          	            _,.-------.,_\n")
+escreva("        		  ,;~'             '~;,\n")
+escreva("                     ,;                     ;,\n")
+escreva("     		        ;                         ;\n")
+escreva("     	             ,'                         ',\n")
+escreva("     	            ,;                           ;,\n")
+escreva("     	             ; ;      .           .      ; ;\n")
+escreva("  		      | ;   ______       ______   ; |\n")
+escreva("     		      |  `/~\"     ~\" . \"~     ~\"\\  |\n")
+escreva("      		      |  ~  ,-~~~^~, | ,~^~~~-,  ~  |\n")
+escreva("      		      |   |        }:{        |   |\n")
+escreva("                      |   l       / | \\       !   |\n")
+escreva("                      .~  (__,.--\" .^. \"--.,__)  ~.\n")
+escreva("                       |     ---;' / | \\ `;---     |\n")
+escreva("                       \\__.       \\/^\\/       .__/\n")
+escreva("                       V| \\                 / |V\n")
+escreva(" __                      | |T~\\___!___!___/~T| |                  _____\n")
+escreva(".-~  ~\"-.              | |`IIII_I_I_I_IIII'| |               .-~     \"-.\n")
+escreva("/         \\             |  \\,III I I I III,/  |              /           Y\n")
+escreva("Y          ;              \\   `~~~~~~~~~~'    /               i           |\n")
+escreva("`.   _     `._              \\   .       .   /               __)         .'\n")
+escreva("  )=~         `-.._           \\.    ^    ./           _..-'~         ~\"<_\n")
+escreva(".-~                 ~`-.._       ^~~~^~~~^       _..-'~                   ~.\n")
+escreva("/                          ~`-.._           _..-'~                           Y\n")
+escreva("{        .~\"-._                  ~`-.._ .-'~                  _..-~;         ;\n")
+escreva(" `._   _,'     ~`-.._                  ~`-.._           _..-'~     `._    _.-\n")
+escreva("    ~~\"              ~`-.._                  ~`-.._ .-'~              ~~\"~\n")
+escreva("  .----.            _..-'  ~`-.._                  ~`-.._          .-~~~~-.\n")
+escreva(" /      `.    _..-'~             ~`-.._                  ~`-.._   (        \".\n")
+escreva("Y        `=--~                  _..-'  ~`-.._                  ~`-'         |\n")
+escreva("|                         _..-'~             ~`-.._                         ;\n")
+escreva("`._                 _..-'~                         ~`-.._            -._ _.'\n")
+escreva("   \"-.=\"      _..-'~                                     ~`-.._        ~`.\n")
+escreva("    /        `.                                                ;          Y\n")
+escreva("   Y           Y                                               Y           |\n")
+escreva("   |           ;                                              `.          /\n")
+escreva("   `.       _.'                                                 \"-.____.-'\n")
+escreva("     ~-----\"\n")}
+  se (fugir == 2){
+  	cadeia texto26 = "Você começa a andar para a direção do dragão"
+cadeia texto27 = "Ele tenta ir para trás porém a torre está em suas costas"
+cadeia texto28 = "Ele tenta de atacar com seu rabo porém você se agarra a ele e pula em direção ao seu rosto"
+cadeia texto29 = "Você joga o escudo na garganta do dragão que está se engasgando"
+cadeia texto30 = "Ele cospe a chave da torre"
+cadeia texto31 = "Com um último suspiro ele tenta te atacar mas é em vão"
+cadeia texto32 = "E ele desmaia"
+cadeia texto33 = "Você vai em direção à torre..."
+
+                }}}
+                funcao espada(inteiro espadatipo){
+                	cadeia texto34 = "Você pega a espada"
+cadeia texto35 = "Sente seu poder erradindo"
+cadeia texto36 = "O dragão começa a te atacar porém com uma incrível velocidade você desvia"
+cadeia texto37 = "No momento em que o dragão ia te encurralar"
+cadeia texto38 = "uma tela aparece e há quatro opções"
+cadeia texto39 = "(1)espada de fogo"
+cadeia texto40 = "(2)espada de luz"
+cadeia texto41 = "(3)sabre de luz"
+cadeia texto42 = "(4)espada de vento"
+leia(espadatipo)
+             se (espadatipo == 1){
+cadeia texto43 = "Você escolheu a espada de fogo"
+cadeia texto44 = "Sua espada emana um fogo absurdo"
+cadeia texto45 = "Neutralizando o fogo do dragão"
+cadeia texto46 = "Você avança com toda sua velocidade"
+cadeia texto47 = "Você desfere um corte profundo na região lateral do dragão"
+cadeia texto48 = "Ele não sente dor, o que é estranho"
+cadeia texto49 = "Você continua a desferir cortes"
+cadeia texto50 = "profundos e superficiais"
+cadeia texto51 = "Quando você estava pronta para desistir"
+cadeia texto52 = "Os cortes começam a se abrir"
+cadeia texto53 = "O dragão grita de dor"
+cadeia texto54 = "Sua pele mudando de cor, de verde para vermelho cor vinho"
+cadeia texto55 = "-Você é mal, não deveria existir"
+cadeia texto56 = "disse o dragão entre soluços e gritos"
+cadeia texto57 = "Você se surpreende ao saber que ele podia falar"
+cadeia texto58 = "Mas não dura muito tempo já que ele desmaia"
+cadeia texto59 = "Você nao sabe o que realmente aconteceu já que os cortes foram fatais"
+cadeia texto60 = "Mas Você abre a boca do dragão e pega a chave da torre..."
+
+}
+     se (espadatipo == 2){
+     	cadeia texto61 = "Você escolheu a espada de luz"
+cadeia texto62 = "Quando você se posiciona em modo combate"
+cadeia texto63 = "A espada emana uma luz cegante"
+cadeia texto64 = "Porém simplesmente não te afeta nem um pouco"
+cadeia texto65 = "Porém com o dragão não foi assim"
+cadeia texto66 = "Ele mal conseguia ver, assim dando uma brecha para você atacar"
+cadeia texto67 = "Voce desfere um golpe preciso em direção a seu coração"
+cadeia texto68 = "Você sente que a espada rasgou algo, mas não pele mas sim algo profundo"
+cadeia texto69 = "Era seu coração, que ao você olhar estava quase sem vida"
+cadeia texto70 = "-Obrigado. Diz ele"
+cadeia texto71 = "-Agora poderei ficar com minha esposa. Ele se despede dando um sorriso apesar da dor"
+cadeia texto72 = "Ele ..... e cospe a chave da torre..."
+
+     }
+     se(espadatipo == 3){
+     	cadeia texto136 = "Você ativa o sabre de luz"
+cadeia texto137 = "a energia sendo expandida é notável"
+cadeia texto138 = "O dragão está surpreso"
+cadeia texto139 = "Porém ainda quer te matar, que pena"
+cadeia texto140 = "Você corre em direção a ele"
+cadeia texto141 = "Porém como você iria se defender?"
+cadeia texto142 = "Acaba que o sabre de luz é pesado :("
+cadeia texto143 = "O dragão ataca você com seu rabo"
+cadeia texto144 = "Não dá tempo de desviar"
+cadeia texto145 = "E você é acertada"
+cadeia texto146 = "Fazendo com que você bata com força em uma parede"
+cadeia texto147 = "Você sente suas costelas se partindo"
+cadeia texto148 = "Uma onda de dor atinge você"
+cadeia texto149 = "O dragão olha para você e antes de dar o golpe final diz:"
+cadeia texto150 = "-Eu sou seu pai"
+cadeia texto151 = "E te ataca"
+cadeia texto152 = "Você é derrotado"
+cadeia texto153 = "Que pena"
+
+     }
+     se (espadatipo == 4){
+     	cadeia texto91 = "Você escolheu a espada de vento"
+cadeia texto92 = "Porque?"
+cadeia texto93 = "É igual escolher pastel de vento achando que tem carne"
+cadeia texto94 = "A espada so tem o suporte"
+cadeia texto95 = "Você já viu uma espada de vento que tem matéria totalmente física?"
+cadeia texto96 = "Se você já viu não adianta mais"
+cadeia texto97 = "Ele te ataca enquanto você lamentava pelo ar derramado"
+cadeia texto98 = "Você já era"
+cadeia texto99 = "Foi para as cucuias"
+
+     	}
+}
+ funcao ak47(inteiro escolhas){
+ 	cadeia texto154 = "Você escolheu uma baita arma"
+cadeia texto155 = "Você tenta atirar"
+cadeia texto156 = "porem quem disse que tem bala?"
+cadeia texto157 = "Não estava dizendo \"AK-47 COM balas\""
+cadeia texto158 = "bobinho"
+cadeia texto159 = "De raiva você joga a arma na cara do dragão"
+cadeia texto160 = "E do nada a arma explode"
+cadeia texto161 = "Uma grande fumaça surge de tal explosão"
+cadeia texto162 = "Você se surpreende com isso"
+cadeia texto163 = "Mas não dura muito"
+cadeia texto164 = "Não deu nenhum dano nele"
+cadeia texto165 = "bobinho"
+cadeia texto166 = "Unica opção é se render"
+cadeia texto167 = "Que se dane o principe certo?"
+cadeia texto168 = "não, vocẽ se esconde atras de uma arvore"
+cadeia texto169 = "Porém um goblin mercenario estava sob sua cabeça"
+cadeia texto170 = "Ele diz:"
+cadeia texto171 = "-Se você não me der 25 dinheirinhos, irei contar para o dragão sua localização"
+cadeia texto172 = "Você tem apenas 24 moedas"
+cadeia texto173 = "Você quer matar o goblin"
+cadeia texto174 = "(1)sim (2)nao"
+leia (escolhas)
+    se (escolhas == 1){
+    	cadeia texto175 = "POR QUE??"
+cadeia texto176 = "Antes de sua morte ele grita..."
+cadeia texto177 = "Revelando o local em que você está"
+cadeia texto178 = "Eita como é esperto"
+cadeia texto179 = "O dragão se aproxima"
+cadeia texto180 = "Você pega o corpo do falecido goblin e começa a procurar algo nos bolsos dele"
+cadeia texto181 = "Você acaba que acha um box de bala e uma arma"
+cadeia texto182 = "Uau,tuthuruthutu dora"
+cadeia texto183 = "Você pega e coloca na arma"
+cadeia texto184 = "Você atira nele, mas tem que atirar mais vezes né"
+cadeia texto185 = "Finge que você ta vendo o Douma... sla to sem ideia ;)"
+cadeia texto186 = "Ratatata, o Dragão tenta proteger o rosto dele mas"
+cadeia texto187 = "Não adianta nadica de nada"
+cadeia texto188 = "O dragão é derrubado"
+cadeia texto189 = "Um baque ensurdescedor é ouviddo de até km de distancia"
+cadeia texto190 = "Ele morre"
+cadeia texto191 = "EEEEEEEEEEEEEEEEEEE"
+cadeia texto192 = "ele \"dropa\" a chave"
+cadeia texto193 = "Você abre o portão da torre e se depara com o principe"
+cadeia texto194 = "ele está irreconhecido"
+cadeia texto195 = "pelo menos ele esta vivo"
+
+
+    	}
+    	se (escolhas == 2){
+    		cadeia texto194 = "Você nâo mata o goblin"
+cadeia texto196 = "E você deu o ultimo dinheiro que-lhe resta"
+cadeia texto197 = "Ele solta um berro e sai correndo"
+cadeia texto198 = "Nunca confie em goblins..."
+cadeia texto199 = "Sem nem ver o dragão te esmaga com sua calda"
+cadeia texto200 = "Parabéns bad ending"
+}
+ 	}
+ 	funcao arco (inteiro escolhas){
+ 		cadeia texto201 = "Você pega o arco"
+cadeia texto202 = "uma tela aparece com duas opçoẽs de arco"
+cadeia texto203 = "(1)- arco de raio"
+cadeia texto204 = "(2)- arco de arco"
+leia (escolhas)
+     se (escolhas == 1){
+     	cadeia texto205 = "Você agarra o arco de raio"
+cadeia texto206 = "Você desfere um corte de raspão no dragâo"
+cadeia texto207 = "Arco você ja tem agora a mira....."
+cadeia texto208 = "O dragão ruge fazendo você voar"
+cadeia texto209 = "No ar você mira com o arco pronto para soltar a flecha"
+cadeia texto210 = "Você sem querer querendo acerta o olho do dragão que recebe uma descarga eletrica"
+cadeia texto211 = "Ele fica meio queimado mas não quer dar a vitoria tão facil"
+cadeia texto212 = "Você faz a proeza de atirar para cima e se acerta"
+cadeia texto213 = "Você sente uma dor profunda te consumindo"
+cadeia texto214 = "No seu momento vulneravel ele te joga contra a torre"
+cadeia texto215 = "Fazendo sua cabeça quase estourar"
+cadeia texto216 = "Ele te finaliza"
+cadeia texto217 = ";) morreu"
+
+     	}
+     	se (escolhas == 2){
+     		cadeia texto218 = "Então porque você escolheu isso"
+cadeia texto219 = "\"Arco de arco\""
+cadeia texto220 = "É um arco que tem uma flecha de arco que nesse arco tem uma flecha"
+cadeia texto221 = "Confuso nâo?"
+cadeia texto222 = "Você mira e atira"
+cadeia texto223 = "Como magica a flecha guia até o dragão acertanto ele"
+cadeia texto224 = "Ele ruge ruar.... Mas não te afeta"
+cadeia texto225 = "Você ataca denovo assim acertando o olho dele"
+cadeia texto226 = "Ele chora de dor... que dó"
+cadeia texto227 = "Mas você não para de ataca-lo nem por um momento"
+cadeia texto228 = "Ele cai YAY"
+cadeia texto229 = "Ele cospe a chave"
+cadeia texto230 = "Chegando na torre..."
+
+     		}
+}
+
+
+           	 
+           }
+		
+	
+	
+
+}
